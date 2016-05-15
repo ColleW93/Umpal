@@ -1,0 +1,20 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.NewsItem>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "Master.cshtml";
+}
+
+@section Head
+{
+	<script type=text/javascript>
+		alert("This is the FAQ Item template")
+	</script>
+}
+
+<h2>@Umbraco.Field("pageName")</h2>	
+<p>@Umbraco.Field("bodyText")</p>
+	@{Html.RenderPartial("ListNewsItems");}
+
+ Breadcrumb: @{Html.RenderPartial("MyBreadcrumb");}
+
+<p class="footer"> Updated by @Umbraco.Field("writerName") on @Umbraco.Field("updateDate", formatAsDate: true)</p>

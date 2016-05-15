@@ -1,0 +1,17 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = null;
+}
+<html>
+	<head>
+		<title>Title</title>
+	
+	@RenderSection("Head", required:false)
+	</head>
+	<h1>@Umbraco.Field("pageName")</h1>
+	<body>
+	
+	@RenderBody()
+	
+	</body>
+</html>

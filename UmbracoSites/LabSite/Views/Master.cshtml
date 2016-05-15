@@ -1,0 +1,41 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+	<link rel="stylesheet" type="text/css" href="/css/Style.css" />
+	<head>
+		<meta name="description" content="SEO info">
+		<title>@Umbraco.Field("pageName")</title>
+	</head>
+	<body>
+			@RenderSection("Footer",required:false)
+			@RenderSection("Head",required:false)
+	</body>
+</head>
+
+					 <div id="mainContentArea">
+	<div id="contentBox">
+        <div id="title">Umbraco Site!</div>
+        
+        <div id="linkGroup">
+            <div class="link"><a href="http://localhost:1175/">Home</a></div>
+            <div class="link"><a href="http://localhost:1175/about-us/">About</a></div>
+            <div class="link"><a href="http://localhost:1175/documentation-1/">Documentation</a></div>
+            <div class="link"><a href="http://localhost:1175/faq-area/">FAQ</a></div>
+        </div>
+        
+        <div id="pinkBox"> 
+          <div id="header"></div>
+          <div class="contentTitle">Look at this lovely pink box~~!</div>
+            <div class="pageContent">
+              @{ Html.RenderPartial ("MyTwoLevelNavigation");}
+				 @RenderBody()  
+					 </div>
+            <div id="footer">I like pink</div>
+        </div>
+	</div>
+</div>
+</body>
+</html>

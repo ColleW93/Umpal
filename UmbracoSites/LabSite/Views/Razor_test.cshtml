@@ -1,0 +1,123 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "Master.cshtml";
+}
+
+@section Head
+{
+	<script type=text/javascript>
+		alert("This is the Razor_test template")
+	</script>
+}
+
+<h2>@Umbraco.Field("pageName")</h2>	
+<p>@Umbraco.Field("bodyText")</p>
+	
+<ul>
+	@foreach (var page in CurrentPage.Ancestors())
+			{
+				<li><a href="@page.Url">@page.Name</a></li>
+			}
+</ul>
+
+	
+	<p>We are in the year! @DateTime.Now.Year</p>
+	
+	@{
+	//These are the variables
+    var year = DateTime.Now.Year;
+    var day = DateTime.Now.DayOfWeek.ToString();
+    var month = DateTime.Now.Month;
+    var typeOfDay = DateTime.Now.DayOfWeek.ToString();
+
+	//Very long if/else statment
+    string monthName = "";
+    if (month == 1)
+    {
+        monthName = "January";
+    }
+    else if (month == 2)
+    {
+        monthName = "February";
+    }
+    else if (month == 3)
+    {
+		monthName = "March";
+    }
+    else if (month == 4)
+	{
+		monthName = "April";
+    }
+    else if (month == 5)
+	{
+		monthName = "May";
+    }
+    else if (month == 6)
+	{
+		monthName = "June";
+    }
+    else if (month == 7)
+	{
+		monthName = "July";
+    }
+    else if (month == 8)
+	{
+		monthName = "August";
+    }
+    else if (month == 9)
+	{
+		monthName = "September";
+    }
+    else if (month == 10)
+	{
+		monthName = "October";
+    }
+    else if (month == 11)
+	{
+		monthName = "November";
+    }
+    else if (month == 12)
+	{
+		monthName = "December";
+	}
+}
+
+@{ //This function switches the month name using a switch statement
+	string sw_monthName = "";
+		switch (month)
+		{
+			//These are the months to be switched
+			case 1: sw_monthName = "January"; break;
+			case 2: sw_monthName = "February"; break;
+			case 3: sw_monthName = "Marts"; break;
+			case 4: sw_monthName = "April"; break;
+			case 5: sw_monthName = "May"; break;
+			case 6: sw_monthName = "June"; break;
+			case 7: sw_monthName = "July"; break;
+			case 8: sw_monthName = "August"; break;
+			case 9: sw_monthName = "September"; break;
+			case 10: sw_monthName = "October"; break;
+			case 11: sw_monthName = "November"; break;
+			case 12: sw_monthName = "December"; break;
+			default: sw_monthName = "dont't know but the weather is fine"; break;
+		}
+ }
+@{
+	
+	int thisYear = DateTime.Now.Year +1;
+	DateTime d1 = DateTime.Now;
+	DateTime d2 = new DateTime(thisYear, 1, 1);
+	TimeSpan newYearsDays = d2 - d1;
+}
+
+
+	//Greeting 1!	
+	<p>“Happy @day, we are in @monthName in the year @year, it will be a great day but it will be hard” </p>
+		
+	//Greeting 2, using switch statements!
+	<p>“Repeat: the month is: @sw_monthName ” </p>
+		
+	<p>“There are @newYearsDays days left until New Year!"</p>
+	
+	
+<p class="footer"> Updated by @Umbraco.Field("writerName") on @Umbraco.Field("updateDate", formatAsDate: true)</p>
