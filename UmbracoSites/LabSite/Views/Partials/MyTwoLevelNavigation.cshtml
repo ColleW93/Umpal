@@ -6,11 +6,14 @@
     This is the home page for a standard website.
     It also highlights the current active page/section in the navigation with the css class "current".
 *@
-	
+
 
 @if (CurrentPage.Children.Where("Visible").Any())
 { <text>Two level navigation</text>
-    <ul>            
+    <ul>           
+	
+ 
+ 
         @* For each child page under the root node, where the property umbracoNaviHide is not True 
 		*@
         @foreach (var childPage in CurrentPage.Children.Where("Visible"))
@@ -27,5 +30,21 @@
                  
             </li>
         }
+    </ul>
+}
+
+@{ var selection = CurrentPage.Ancestors(); }
+
+@if (selection.Any())
+{
+    <ul class="breadcrumb">
+        @* For each page in the ancestors collection which have been ordered by Level (so we start with the highest top node first) *@
+        @foreach (var item in selection.OrderBy("Level"))
+        {
+            <li><a href="@item.Url">@item.Name</a> <span class="divider">/</span></li>
+        }
+
+        @* Display the current page as the last item in the list *@
+        <li class="active">@CurrentPage.Name</li>
     </ul>
 }

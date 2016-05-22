@@ -1,0 +1,97 @@
+﻿ 2016-05-19 19:39:07,865 [P16436/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.2 application starting on COMPUCCA
+ 2016-05-19 19:39:07,916 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-05-19 19:39:07,927 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2016-05-19 19:39:08,009 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-05-19 19:39:08,065 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 56ms)
+ 2016-05-19 19:39:08,137 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-05-19 19:39:08,138 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-05-19 19:39:08,138 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-05-19 19:39:08,139 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-05-19 19:39:08,150 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-05-19 19:39:08,151 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-05-19 19:39:08,151 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-05-19 19:39:08,156 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 4ms)
+ 2016-05-19 19:39:08,239 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-05-19 19:39:08,240 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-05-19 19:39:08,240 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-05-19 19:39:08,241 [P16436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-05-19 19:39:09,029 [P16436/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-05-19 19:39:09,306 [P16436/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-05-19 19:39:09,366 [P16436/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-05-19 19:39:09,446 [P16436/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-05-19 19:39:09,500 [P16436/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-05-19 19:39:09,581 [P16436/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-05-19 19:39:09,592 [P16436/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1785ms)
+ 2016-05-19 19:39:11,344 [P16436/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:12126/umbraco (UmbracoModule request)
+ 2016-05-19 19:39:11,512 [P16436/D2/T11] INFO  umbraco.content - Load Xml from file...
+ 2016-05-19 19:39:11,514 [P16436/D2/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2016-05-19 19:39:12,024 [P16436/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-05-19 19:39:12,025 [P16436/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-05-19 19:39:27,204 [P16436/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-05-19 19:39:27,204 [P16436/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-05-19 19:39:27,442 [P16436/D2/T15] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username nicole@weirauch.dk from IP address ::1
+ 2016-05-19 19:39:27,442 [P16436/D2/T15] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: nicole@weirauch.dk logged in from IP address ::1
+ 2016-05-19 19:39:27,648 [P16436/D2/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-19 19:39:27,649 [P16436/D2/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-05-19 19:39:27,695 [P16436/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-05-19 19:39:27,696 [P16436/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-05-19 19:39:27,730 [P16436/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-05-19 19:39:27,731 [P16436/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-05-19 19:39:27,743 [P16436/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-19 19:39:27,743 [P16436/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-19 19:39:27,745 [P16436/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-05-19 19:39:27,746 [P16436/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-05-19 19:40:11,665 [P16436/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-18 19:40:11
+ 2016-05-19 19:42:21,214 [P16436/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-05-19 19:42:21,215 [P16436/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-05-19 19:42:21,233 [P16436/D2/T16] WARN  Umbraco.Core.Models.Member - An attempt was made to set a value on the property 'PasswordQuestion' on type Umbraco.Core.Models.Member but the property type umbracoMemberPasswordRetrievalQuestion does not exist on the member type, ensure that this property type exists so that setting this property works correctly.
+ 2016-05-19 19:42:21,233 [P16436/D2/T16] WARN  Umbraco.Core.Models.Member - An attempt was made to set a value on the property 'PasswordAnswer' on type Umbraco.Core.Models.Member but the property type umbracoMemberPasswordRetrievalAnswer does not exist on the member type, ensure that this property type exists so that setting this property works correctly.
+ 2016-05-19 19:42:21,292 [P16436/D2/T16] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-05-19 19:44:03,579 [P16436/D2/T51] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2016-05-19 19:44:03,587 [P16436/D2/T51] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 7ms)
+ 2016-05-19 19:44:04,054 [P16436/D2/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:44:04,058 [P16436/D2/T51] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:44:44,046 [P16436/D2/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:44:44,055 [P16436/D2/T67] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:44:45,730 [P16436/D2/T58] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:44:45,731 [P16436/D2/T53] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:45:05,202 [P16436/D2/T75] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:45:05,218 [P16436/D2/T75] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:45:27,717 [P16436/D2/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:45:27,725 [P16436/D2/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:46:32,390 [P16436/D2/T35] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:46:32,396 [P16436/D2/T35] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:46:33,656 [P16436/D2/T35] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:46:33,656 [P16436/D2/T75] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:46:55,491 [P16436/D2/T82] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:46:55,499 [P16436/D2/T77] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:46:56,715 [P16436/D2/T28] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:46:56,723 [P16436/D2/T36] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:46:57,635 [P16436/D2/T21] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:46:57,635 [P16436/D2/T77] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:46:58,250 [P16436/D2/T36] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:46:58,250 [P16436/D2/T20] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:47:25,760 [P16436/D2/T58] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:47:25,770 [P16436/D2/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:47:32,053 [P16436/D2/T58] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:47:32,059 [P16436/D2/T58] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:47:33,583 [P16436/D2/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:47:33,592 [P16436/D2/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:47:34,202 [P16436/D2/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:47:34,219 [P16436/D2/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:47:50,109 [P16436/D2/T82] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:47:50,116 [P16436/D2/T39] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:47:51,167 [P16436/D2/T30] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:47:51,177 [P16436/D2/T24] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-05-19 19:50:04,369 [P16436/D2/T69] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-05-19 19:50:04,594 [P16436/D2/T27] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-05-19 20:09:10,041 [P16436/D2/T250] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: nicole@weirauch.dk, IP Address: ::1
+ 2016-05-19 20:17:03,289 [P16436/D2/T350] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username nicole@weirauch.dk from IP address ::1
+ 2016-05-19 20:17:03,289 [P16436/D2/T350] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: nicole@weirauch.dk logged in from IP address ::1
+ 2016-05-19 20:36:35,040 [P16436/D2/T194] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: nicole@weirauch.dk, IP Address: ::1
+ 2016-05-19 21:16:52,744 [P16436/D2/T198] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username nicole@weirauch.dk from IP address ::1
+ 2016-05-19 21:16:52,744 [P16436/D2/T198] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: nicole@weirauch.dk logged in from IP address ::1
+ 2016-05-19 21:47:47,040 [P16436/D2/T139] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: nicole@weirauch.dk, IP Address: ::1
+ 2016-05-19 21:47:53,041 [P16436/D2/T136] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: nicole@weirauch.dk, IP Address: ::1
+ 2016-05-19 22:33:17,927 [P16436/D2/T185] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username nicole@weirauch.dk from IP address ::1
+ 2016-05-19 22:33:17,927 [P16436/D2/T185] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: nicole@weirauch.dk logged in from IP address ::1
