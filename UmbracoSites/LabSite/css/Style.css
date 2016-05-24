@@ -37,6 +37,7 @@ body
 
 
 
+
 /* === Containers === */
 
 
@@ -52,40 +53,7 @@ body
 }
 
 
-.link,.linkActive
-{
-width:75px;
-margin-right:10px;
-float: left;
-margin-top:24px;
-text-align:center;
-font-family:Georgia, "Times New Roman", Times, serif;
-background-image:url(tab.gif);
-position:relative; bottom:0px;
-}
 
-.link:hover
-{
-background-image:url(tab2.gif);
-}
-
-a
-{
-text-decoration:none;
-}
-
-.link a{
-font-family:Arial, Helvetica, sans-serif;
-font-size:12px;
-font-weight:bold;
-}
-
-#linkGroup
-{
-margin-right:10px;
-height:40px;
-width:600px;
-}
 
 #title
 {
@@ -151,20 +119,9 @@ text-align:center;
 padding-right:10px;
 color:#BDCDEC;
 }
-#footer a
-{
-font-size:9px;
-color:#BDCDEC;
-}
+
 
 #contentBox
 {
 margin-top:25px;
 }
-
-
-
-html, body {
-text-align: center;
-}
-p {text-align: left;}
